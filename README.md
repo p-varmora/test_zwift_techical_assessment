@@ -13,7 +13,7 @@ Java version: 15.0.1, vendor: Oracle Corporation, runtime: /Users/p_varmora/Libr
 Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.16", arch: "x86_64", family: "mac"
 
-3. chromedriver version: (installed in /usr/local/bin)
+3. chromedriver version: (install in /usr/local/bin)
 https://chromedriver.storage.googleapis.com/index.html?path=91.0.4472.19/
 chromedriver_mac64_m1.zip
 
@@ -24,7 +24,7 @@ chromedriver_mac64_m1.zip
 6. Selenium version: 3.141.59
 
 7. IntelliJ IDEA Community Edition 2020.2.4
---
+
 
 Automation-framework walk-through: (included java-doc in each class for better understanding)
 --
