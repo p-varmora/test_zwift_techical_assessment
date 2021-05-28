@@ -35,7 +35,7 @@ Automation-framework walk-through: (included java-doc in each class for better u
 4. HomePageClass -> This the home-page class with constructor - for home-page related web-elements and methods 
 5. EventsPageClass -> This the events-page class with constructor - for events-page related web-elements and methods. 
 
-Build-Sucess Logs: 
+Build-SUCCESS Logs: 
 --
 /Users/p_varmora/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home/bin/java -Dmaven.multiModuleProjectDirectory=/Users/p_varmora/IdeaProjects/zwift_technicalAssessment/zwiftUI_Automation "-Dmaven.home=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3" "-Dclassworlds.conf=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf" "-Dmaven.ext.class.path=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar" "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52132:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar" org.codehaus.classworlds.Launcher -Didea.version=2020.2.4 test
 [INFO] Scanning for projects...
