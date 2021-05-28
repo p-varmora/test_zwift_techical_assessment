@@ -1,12 +1,12 @@
 Zwift_technicalAssessment Pre-Requisite : 
 --
 
-1.java --version
+1.java --version : 
 openjdk 15.0.1 2020-10-20
 OpenJDK Runtime Environment (build 15.0.1+9-18)
 OpenJDK 64-Bit Server VM (build 15.0.1+9-18, mixed mode, sharing)
 
-2.mvn --version
+2.mvn --version : 
 Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 Maven home: /Users/p_varmora/apache-maven-3.6.3
 Java version: 15.0.1, vendor: Oracle Corporation, runtime: /Users/p_varmora/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home
