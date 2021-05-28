@@ -1,38 +1,29 @@
 Zwift_technicalAssessment Pre-Requisite : 
 --
 
-p_varmora ~  $ java --version
---
+1.java --version
 openjdk 15.0.1 2020-10-20
 OpenJDK Runtime Environment (build 15.0.1+9-18)
 OpenJDK 64-Bit Server VM (build 15.0.1+9-18, mixed mode, sharing)
 
-p_varmora ~  $ mvn --version
---
+2.mvn --version
 Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 Maven home: /Users/p_varmora/apache-maven-3.6.3
 Java version: 15.0.1, vendor: Oracle Corporation, runtime: /Users/p_varmora/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home
 Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.16", arch: "x86_64", family: "mac"
 
-chromedriver version: (installed in /usr/local/bin)
---
+3. chromedriver version: (installed in /usr/local/bin)
 https://chromedriver.storage.googleapis.com/index.html?path=91.0.4472.19/
 chromedriver_mac64_m1.zip
 
-Google chrome-browser version :
---
-90.0.4430.212
+4. Google chrome-browser version : 90.0.4430.212
 
-TestNG version : (Added dependency in pom.xml)
---
-6.14.3
+5. TestNG version: 6.14.3
 
-Selenium version: (Added dependency in pom.xml)
---
-3.141.59
+6. Selenium version: 3.141.59
 
-IntelliJ IDEA Community Edition 2020.2.4
+7. IntelliJ IDEA Community Edition 2020.2.4
 --
 
 Automation-framework walk-through: (included java-doc in each class for better understanding)
