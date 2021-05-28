@@ -31,9 +31,9 @@ Automation-framework walk-through: (included java-doc in each class for better u
 1. HomePageTest Class -> 1.validate_zwiftHomePageLoads() test 2. validate_contentOfYourChoicePresent() test 
 2. EventsPageTest Class -> 1. validate_zwiftEventsPageLoads() test 2. validate_zwiftEventsAfterPopulatingFilters() test 
 
-3. BaseTestSetup -> This the main class for intializing web-driver object, chrome-browser and  all the possible functionalities
-4. HomePageClass -> This the home-page class with constructor for home-page related web-elements and methods 
-5. EventsPageClass -> This the events-page class with constructor events-page related web-elements and methods. 
+3. BaseTestSetup -> This the main class - for intializing web-driver object, chrome-browser and  all the possible functionalities
+4. HomePageClass -> This the home-page class with constructor - for home-page related web-elements and methods 
+5. EventsPageClass -> This the events-page class with constructor - for events-page related web-elements and methods. 
 
 Build-Sucess Logs: 
 --
