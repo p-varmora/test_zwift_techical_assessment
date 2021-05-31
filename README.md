@@ -29,12 +29,12 @@ chromedriver_mac64_m1.zip
 Automation-framework walk-through: (included java-doc in each class for better understanding)
 --
 1. HomePageTest Class -> 
-    1.validate_zwiftHomePageLoads() 
-    2. 2. validate_contentOfYourChoicePresent()  
+    1. validate_zwiftHomePageLoads() 
+    2. validate_contentOfYourChoicePresent()  
 2. EventsPageTest Class -> 
     1. validate_zwiftEventsPageLoads() 
     2. validate_zwiftEventsAfterPopulatingFilters_NoResults() 
-    3. 3. validate_zwiftEventsAfterPopulatingFilters_forCycling()
+    3. validate_zwiftEventsAfterPopulatingFilters_forCycling()
 
 3. BaseTestSetup -> This the main class - for intializing web-driver object, chrome-browser and  all the possible functionalities
 4. HomePageClass -> This the home-page class with constructor - for home-page related web-elements and methods 
