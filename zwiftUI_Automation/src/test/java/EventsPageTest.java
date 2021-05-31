@@ -65,7 +65,7 @@ public class EventsPageTest extends BaseTestSetup{
     12.Validate that Zwift -Events have changed after populating fields and applying filters
     13.Terminate the web-browser
     */
-    public void validate_zwiftEventsAfterPopulatingFilters_forCycling() {
+    public void validate_zwiftEventsAfterPopulatingFilters_NoResults() {
         initializingWebBrowser();
         navigatingToZwiftHomePage();
 
@@ -83,7 +83,7 @@ public class EventsPageTest extends BaseTestSetup{
         Reporter.log("click on Filter-Events button", true);
         clickOn(eventsPageClass.filterEvents_button, 20);
 
-        eventsPageClass.populateTheFieldsAndApplyFilters_Cycling();
+        eventsPageClass.populateTheFieldsAndApplyFilters_NoResults();
 
         List<String> afterPopulatingFields_EventsList = eventsPageClass.listOFEvents();
 
@@ -104,16 +104,16 @@ public class EventsPageTest extends BaseTestSetup{
     3.Click on Events (user will navigate to Events Page)
     4.Store the List of events in eventLists
     5.Click on Filter-Events button
-    6.Select sports : Running
+    6.Select sports : Cycling
     7.Select event-type : Race
     8.Select intensities : D
-    9.Select start-time : Morning
+    9.Select start-time : evening
     10.Apply filter
     11.Store the List of events in afterPopulatingFields_EventsList
     12.Validate that Zwift -Events have changed after populating fields and applying filters
     13.Terminate the web-browser
     */
-    public void validate_zwiftEventsAfterPopulatingFilters_forRunning() {
+    public void validate_zwiftEventsAfterPopulatingFilters_forCycling() {
         initializingWebBrowser();
         navigatingToZwiftHomePage();
 

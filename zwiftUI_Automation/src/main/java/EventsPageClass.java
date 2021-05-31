@@ -49,7 +49,7 @@ public class EventsPageClass extends BaseTestSetup {
      * This method will populate the Cycling Sports, Event-type = fondo, Intensities =B,
      * and Start Times = Norning,  fields and apply the filter
      */
-    public void populateTheFieldsAndApplyFilters_Cycling() {
+    public void populateTheFieldsAndApplyFilters_NoResults() {
         Reporter.log("select sports : cycling", true);
         clickOn(sports_Cycling, 10);
         Reporter.log("select event-type : fondo", true);
