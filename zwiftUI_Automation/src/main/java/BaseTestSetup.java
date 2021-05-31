@@ -62,8 +62,7 @@ public class BaseTestSetup{
     }
 
     /**
-     * This method will allow user to navigate to Zwift Home-page,
-     * and accept cookies policy
+     * This method will accept cookies policy
      */
     private static void acceptCookiesPolicy() {
         clickOn( webDriver.findElement(By.xpath("//button[text()='Accept All']")), 5);
